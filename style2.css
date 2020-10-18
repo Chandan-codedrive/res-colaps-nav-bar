@@ -1,0 +1,14 @@
+.navbar-toggler.custom-toggler {
+    border: white 0px solid;
+    color: blue;
+    position: relative;
+  } 
+  .navbar-toggler.custom-toggler:after{
+    color: red;
+    content: '';
+    border-bottom: solid 100px green ;
+    position: absolute;
+  }
+body{
+    background-color: yellow;
+}
